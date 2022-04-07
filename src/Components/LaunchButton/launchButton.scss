@@ -1,0 +1,8 @@
+@import '../../Variables/Variables.scss';
+
+.launch-button.root {
+    margin-top: 1em;
+    width: fit-content;
+    display: block;
+    color: $primaryColor;
+}

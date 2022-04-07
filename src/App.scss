@@ -1,0 +1,43 @@
+@import "../src/Variables/Variables.scss";
+
+.App {
+  text-align: center;
+  h1 {
+    color: $primaryColor;
+    font-size: 4em;
+    text-decoration: underline;
+  }
+
+  h2 {
+    color: $secondaryColor;
+    background-color: $primaryColor;
+    font-family: $primaryFont;
+    font-size: 3.5em;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0.1em 0.2em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+  }
+
+  span {
+      font-family: $secondaryFont;
+      color: $primaryColor;
+      font-size: 2em;
+      display: block;
+      width: 40vw;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 1.5em;
+      margin-bottom: 1.5em;
+      text-align: center;
+    }
+}
+
+html {
+  background-color: $secondaryColor;
+}
+
+
